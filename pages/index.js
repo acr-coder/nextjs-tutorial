@@ -8,7 +8,7 @@ export default function Home() {
         <title>Programming Lessons | Homepage</title>
         <meta name='keywords' content="programming, web, development" />
       </Head>
-      HomePage
+      <h1>Homepage</h1>
     </div>
   )
 }

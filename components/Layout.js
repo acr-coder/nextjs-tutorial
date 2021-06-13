@@ -1,11 +1,14 @@
 import styles from '../styles/Layout.module.css';
-
+import Navbar from '../components/Navbar'
 function Layout({children}) {
     return (
+        <>
+        <Navbar/>
         <div className={styles.container}>
-            <h1>Merhaba Next js</h1>
+            
             {children}
         </div>
+        </>
     )
 }
 
